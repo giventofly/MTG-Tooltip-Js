@@ -9,6 +9,8 @@ How to use:
 
 add mtg-card-hover.js, and add a class for a element containing the card you want to get a card tooltip, real example:
 
-<div class='meta-dinfo-deck-content-name inlinemtg'>Baneslayer Angel</div>
+*<div class='meta-dinfo-deck-content-name inlinemtg'>Baneslayer Angel</div>
 
 Check the /docs for real live examples.
+
+todo: do all jquery to vanilla js
