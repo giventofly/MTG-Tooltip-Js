@@ -1,5 +1,8 @@
 # mtg-card-hover
-The simpliest (javascript) mtg card hover based on inlinetooltipjs.
+
+The simpliest (vanilla javascript) mtg card hover based on:
+* [Simple Inline Tooltips ](http://www.infinitegyre.com/2014/03/simple-inline-tooltips.html)
+* [Inline mtg](https://gist.github.com/NickolasReynolds/9306194)
 
 Added some funcionalities (default basic land set, kill() to remove all instances from the DOM) remove some uncessary code, some jquery removed, and stripped of all the "unecessary extras".
 
