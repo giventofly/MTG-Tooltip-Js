@@ -1,5 +1,7 @@
 # mtg-card-hover
 
+#WIP - when i have some time i will finnish this!
+
 The simpliest (vanilla javascript) mtg card hover based on:
 * [Simple Inline Tooltips ](http://www.infinitegyre.com/2014/03/simple-inline-tooltips.html)
 * [Inline mtg](https://gist.github.com/NickolasReynolds/9306194)
