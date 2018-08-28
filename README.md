@@ -1,6 +1,6 @@
 # MTG tooltip JS
 
-A simple vanilla javascript plugin to create images tooltips for magic the gathering cards.
+A simple vanilla javascript plugin to create images tooltips for magic the gathering cards. No dependencies, no extra css, just a .js file and little bit of html.
 
 -
 
