@@ -6,7 +6,7 @@ You can check it working live here, along with some examples of usage and a "nic
 
 
 The simpliest (vanilla javascript) mtg card tooltip based on:
-* [Simple Inline Tooltips ](http://www.infinitegyre.com/2014/03/simple-inline-tooltips.html) + [Inline mtg](https://gist.github.com/NickolasReynolds/9306194).
+* [Inline mtg](https://gist.github.com/NickolasReynolds/9306194).
 
 What advatanges do i have over the previous one?
 
