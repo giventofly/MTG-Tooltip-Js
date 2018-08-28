@@ -2,13 +2,11 @@
 
 A simple vanilla javascript plugin to create images tooltip for magic the gathering cards.
 
+-
+
 You can check it working live here, along with some examples of usage and a "nicier" page :)
 
-
-The simpliest (vanilla javascript) mtg card tooltip based on:
-* [Inline mtg](https://gist.github.com/NickolasReynolds/9306194).
-
-What advatanges do i have over the previous one?
+What advantages do i have over ([Inline mtg](https://gist.github.com/NickolasReynolds/9306194) - my inspiration/basepoint) the previous one?
 
 * No libraries needed
 * lazyload tooltip images
