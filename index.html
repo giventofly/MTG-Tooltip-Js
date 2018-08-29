@@ -1,60 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>MTG Tooltip JS - mtg card toolips</title>
-  <meta name="description" content="MTG Tooltip Js, vanilla Javascript plugin to create magic the gathering card tooltips.">
-  <link rel="stylesheet" href="./assets/styles.css">
-  <link rel="stylesheet" href="./assets/atom-one-dark.css">
-  <script src="./mtgtooltip.min.js"></script>
-  <script src="./assets/highlight.pack.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-    document.addEventListener('DOMContentLoaded', function () {
-      example = new mtgTooltip({});
-      example2 = new mtgTooltip({
-        fadetime: 2000,
-        lazyload: false,
-        myclass: 'mtgtooltip2'
-      });
-      justaexample = new mtgTooltip({
-        "opacity": 0.8,
-        myclass: "justaexample"
-      });
-      another = new mtgTooltip({
-        wrap_in: "<div class='mynewclass'>",
-        wrap_out: "</div>",
-        myclass: 'mtgtooltip4'
-      });
-      lastone = new mtgTooltip({
-        specialImage: "./assets/",
-        myclass: 'mtgtooltip5'
-      });
-      lastone1 = new mtgTooltip({
-        myclass: 'mtgtooltip6'
-      });
-    });
-  </script>
-</head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>MTG Tooltip JS - mtg card toolips</title><meta name="description" content="MTG Tooltip Js, vanilla Javascript plugin to create magic the gathering card tooltips."><link rel="stylesheet" href="./assets/styles.css"><link rel="stylesheet" href="./assets/atom-one-dark.css"> <script src="./mtgtooltip.min.js"></script> <script src="./assets/highlight.pack.js"></script> <script>hljs.initHighlightingOnLoad();document.addEventListener('DOMContentLoaded',function(){example=new mtgTooltip({});example2=new mtgTooltip({fadetime:2000,lazyload:false,myclass:'mtgtooltip2'});justaexample=new mtgTooltip({"opacity":0.8,myclass:"justaexample"});another=new mtgTooltip({wrap_in:"<div class='mynewclass'>",wrap_out:"</div>",myclass:'mtgtooltip4'});lastone=new mtgTooltip({specialImage:"./assets/",myclass:'mtgtooltip5'});lastone1=new mtgTooltip({myclass:'mtgtooltip6'});});</script> </head>
 
 <body>
-  <header>
-    <div class="menu-wrap">
-      <div class="top">
-        <h1>MTG Tooltip JS</h1>
-        <h2>Vanilla Javascript plugin to create magic the gathering card tooltips.</h2>
-      </div>
-      <div class="bottom"> <a href="#examples">Examples</a> <a href="#quickstart">Quick start</a></div>
-    </div>
-    <div class="sub-menu-wrap">
-      <div class="sub-menu"> <a href="#howtouse" title='how to use'>How to use</a> <a href="#options" title='live examples'>Options</a>
-        <a href="#download" title='download'>download</a> <a href="https://github.com/giventofly/MTG-Tooltip-Js" title='mtg tooltip js github'
-          rel='noopener' target='_blank'>Github</a></div>
-    </div>
-  </header>
+<header><div class="menu-wrap"><div class="top"><h1>MTG Tooltip JS</h1><h2>Vanilla Javascript plugin to create magic the gathering card tooltips.</h2></div><div class="bottom"> <a href="#examples">Examples</a> <a href="#quickstart">Quick start</a></div></div><div class="sub-menu-wrap"><div class="sub-menu"> <a href="#howtouse" title='how to use'>How to use</a> <a href="#options" title='live examples'>Options</a> <a href="#download" title='download'>download</a> <a href="https://github.com/giventofly/MTG-Tooltip-Js" title='mtg tooltip js github' rel='noopener' target='_blank'>Github</a></div></div> </header>
   <section class='content'>
     <h2>What is this?</h2>
     <p>MTG Tooltip Js is a plain javascript plugin that creates tooltips of magic the gathering cards when the mouse is
@@ -74,108 +24,7 @@
     <pre><code class="javascript">document.addEventListener('DOMContentLoaded', function () { tooltips = new mtgTooltip(); }); </code></pre>
     <h2 id='options'>Options</h2>
     <p>You have this options available when starting an instance of mtgtooltip.js:</p>
-    <table>
-      <thead>
-        <tr>
-          <th>option</th>
-          <th>default</th>
-          <th>available options</th>
-          <th>description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>myclass</td>
-          <td>mtgtooltip</td>
-          <td>String</td>
-          <td>The class you want to use to invoke the tooltip</td>
-        </tr>
-        <tr>
-          <td>element</td>
-          <td>body</td>
-          <td>String</td>
-          <td>The element you want to append the tooltips to (need to have position defined)</td>
-        </tr>
-        <tr>
-          <td>lazyload</td>
-          <td>true</td>
-          <td>bool (true/false)</td>
-          <td>If you want to lazyload the tooltip images.</td>
-        </tr>
-        <tr>
-          <td>fadetime</td>
-          <td>300</td>
-          <td>integer (ms)</td>
-          <td>If you want the tooltip to fade in X ms</td>
-        </tr>
-        <tr>
-          <td>opacity</td>
-          <td>1</td>
-          <td>float [0,1]</td>
-          <td>The opacity for the tooltip to have.</td>
-        </tr>
-        <tr>
-          <td>log</td>
-          <td>false</td>
-          <td>bool (true/false)</td>
-          <td>Verbose to the console what's going on.</td>
-        </tr>
-        <tr>
-          <td>start</td>
-          <td>true</td>
-          <td>bool (true/false)</td>
-          <td>Start mtgtooltip on the instance creation.</td>
-        </tr>
-        <tr>
-          <td>wrap_in</td>
-          <td>-</td>
-          <td>String</td>
-          <td>Initial wrap for the tooltip (div, section, whatever you like)</td>
-        </tr>
-        <tr>
-          <td>wrap_out</td>
-          <td>-</td>
-          <td>String</td>
-          <td>Final wrap for the tooltip (div, section, whatever you like)</td>
-        </tr>
-        <tr>
-          <td>specialImage</td>
-          <td>-</td>
-          <td>String</td>
-          <td>Link to use costumized image on request (for the data-specialimage attribute)</td>
-        </tr>
-        <tr>
-          <td>mobile</td>
-          <td>true</td>
-          <td>bool (true/false)</td>
-          <td>Don't start the mtgtooltip on mobile/tablet devices.</td>
-        </tr>
-        <tr>
-          <td>basiclands</td>
-          <td>ust</td>
-          <td>String (ust,unh,ugl)</td>
-          <td>unstable, unhinged and unglued respectively</td>
-        </tr>
-        <tr>
-          <td>shocklands</td>
-          <td>exp</td>
-          <td>String (old,new,exp)</td>
-          <td>old: (dissension,ravnica), new: gatecrash, return to ravnica, exp: expeditions</td>
-        </tr>
-        <tr>
-          <td>fetchlands</td>
-          <td>exp</td>
-          <td>String (old,new,exp)</td>
-          <td>old: zendikar, onslaught, new: modern master 3, khans of tarkir, exp: expeditions</td>
-        </tr>
-        <tr>
-          <td>painlands</td>
-          <td>exp</td>
-          <td>String (old,new,exp)</td>
-          <td>old: ice age, apocalypse, new: magic origins, exp: tenth edition, sixth edition</td>
-        </tr>
-      </tbody>
-    </table>
+   <table><thead><tr><th>option</th><th>default</th><th>available options</th><th>description</th></tr></thead><tbody><tr><td>myclass</td><td>mtgtooltip</td><td>String</td><td>The class you want to use to invoke the tooltip</td></tr><tr><td>element</td><td>body</td><td>String</td><td>The element you want to append the tooltips to (need to have position defined)</td></tr><tr><td>lazyload</td><td>true</td><td>bool (true/false)</td><td>If you want to lazyload the tooltip images.</td></tr><tr><td>fadetime</td><td>300</td><td>integer (ms)</td><td>If you want the tooltip to fade in X ms</td></tr><tr><td>opacity</td><td>1</td><td>float [0,1]</td><td>The opacity for the tooltip to have.</td></tr><tr><td>log</td><td>false</td><td>bool (true/false)</td><td>Verbose to the console what's going on.</td></tr><tr><td>start</td><td>true</td><td>bool (true/false)</td><td>Start mtgtooltip on the instance creation.</td></tr><tr><td>wrap_in</td><td>-</td><td>String</td><td>Initial wrap for the tooltip (div, section, whatever you like)</td></tr><tr><td>wrap_out</td><td>-</td><td>String</td><td>Final wrap for the tooltip (div, section, whatever you like)</td></tr><tr><td>specialImage</td><td>-</td><td>String</td><td>Link to use costumized image on request (for the data-specialimage attribute)</td></tr><tr><td>mobile</td><td>true</td><td>bool (true/false)</td><td>Don't start the mtgtooltip on mobile/tablet devices.</td></tr><tr><td>basiclands</td><td>ust</td><td>String (ust,unh,ugl)</td><td>unstable, unhinged and unglued respectively</td></tr><tr><td>shocklands</td><td>exp</td><td>String (old,new,exp)</td><td>old: (dissension,ravnica), new: gatecrash, return to ravnica, exp: expeditions</td></tr><tr><td>fetchlands</td><td>exp</td><td>String (old,new,exp)</td><td>old: zendikar, onslaught, new: modern master 3, khans of tarkir, exp: expeditions</td></tr><tr><td>painlands</td><td>exp</td><td>String (old,new,exp)</td><td>old: ice age, apocalypse, new: magic origins, exp: tenth edition, sixth edition</td></tr></tbody></table>
     <p>Also it has this api access:</p>
     <pre><code class="javascript"> 
 //starts, only used to rescan the page and load new items or when start is set to false 
