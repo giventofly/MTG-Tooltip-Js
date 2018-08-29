@@ -79,7 +79,7 @@ mtgTooltip.prototype = {
     tooltip.id = myclass + "_c" + settingsID;
     //lazyload
     let lazyload = 'src';
-    if (!this._settings.lazyload) { lazyload = 'data-src';  }
+    if (this._settings.lazyload) { lazyload = 'data-src';  }
     //costumized wrappers
     const wrapIn = this._settings.wrap_in;
     const wrapOut = this._settings.wrap_out;
@@ -128,7 +128,7 @@ mtgTooltip.prototype = {
     // let linkid = $(this).data("linkid");
     const tooltip = document.getElementById(myclass + "_c" + childid);
     //if lazyload
-    if (!this._settings.lazyload) {
+    if (this._settings.lazyload) {
       const tooltipimage = tooltip.querySelector('img');
       const linksrc = tooltipimage.dataset.src;
       tooltipimage.setAttribute('src', linksrc);
