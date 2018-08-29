@@ -9,7 +9,7 @@
   <meta name="description" content="MTG Tooltip Js, vanilla Javascript plugin to create magic the gathering card tooltips.">
   <link rel="stylesheet" href="./assets/styles.css">
   <link rel="stylesheet" href="./assets/atom-one-dark.css">
-  <script src="./dist/mtgtooltip.min.js"></script>
+  <script src="./mtgtooltip.min.js"></script>
   <script src="./assets/highlight.pack.js"></script>
   <script>
     hljs.initHighlightingOnLoad();
@@ -81,7 +81,7 @@
       to see it in action.</p>
     <h2 id='howtouse'>How to use</h2>
     <p>You need to download or link to the minified or pretiffied version.</p>
-    <pre><code class='hljs xml'> &lt;script src=&quot;./dist/mtgtooltip.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+    <pre><code class='hljs xml'> &lt;script src=&quot;./mtgtooltip.min.js&quot;&gt;&lt;/script&gt;</code></pre>
     <p>Then to each element you want to give the class mtgtooltip (you can also specify the class you want to use - <a href="#options">see options</a>).</p>
     <pre><code class="hljs xml">I always liked &lt;span class='mtgtooltip'&gt;Sliver Queen&lt;/span&gt; since i've started playing in 2000.</code></pre>
     <p>After that just create a new instance of mtgtooltips in javascript with your desired options and its done.</p>
@@ -132,7 +132,7 @@ mtgtooltip.kill() // to remove all instances of the tooltip and addEventListener
     <h2 id='quickstart'>Quick start</h2>
     <p>Its really simple to get it going with the minimal code.</p>
     <p>You just need to load this javascript (even hosted on github) and have at least one elment with the mtgtooltip class.</p>
-    <pre><code class="hljs xml">&lt;script src='https://raw.githubusercontent.com/giventofly/MTG-Tooltip-Js/dist/mtgtooltip.js'&gt;&lt;/script&gt;</code></pre>
+    <pre><code class="hljs xml">&lt;script src='https://raw.githubusercontent.com/giventofly/MTG-Tooltip-Js/mtgtooltip.min.js'&gt;&lt;/script&gt;</code></pre>
      <pre><code class="javascript">document.addEventListener('DOMContentLoaded', function () {
         tooltips = new mtgTooltip();
     });
