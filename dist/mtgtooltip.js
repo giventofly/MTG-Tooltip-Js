@@ -35,7 +35,7 @@ mtgTooltip.prototype = {
       let multiverseid = element.dataset.multiverseid; // data-multiverseid
       let specialimg = element.dataset.specialimg; //data-special
       let contents = element.innerHTML; // Span contents (link text)
-      let params = "https://gatherer.wizards.com/Handlers/Image.ashx?type=card";
+      let params = "http://gatherer.wizards.com/Handlers/Image.ashx?type=card";
       let cardName = "";
       let setName = "";
       let cardMultiverse = "";
