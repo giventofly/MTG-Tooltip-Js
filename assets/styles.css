@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900|PT+Sans:400,700");
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f7;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ecb728;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.menu-wrap {
+  position: relative;
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  padding: 25px;
+  color: #025472;
+  min-height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu-wrap .top {
+  max-width: 550px;
+}
+
+.menu-wrap .top h1 {
+  font-size: 60px;
+  margin: 25px 0px 25px 0px;
+  font-weight: 900;
+}
+
+.menu-wrap .top h2 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.menu-wrap .bottom {
+  position: relative;
+  right: 0;
+  margin-top: auto;
+  max-width: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: 100px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.menu-wrap .bottom a {
+  display: inline-block;
+  background-color: #ecb728;
+  color: #f3f4f7;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 0.4em;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.menu-wrap .bottom a:hover {
+  background-color: #a0780e;
+}
+
+.sub-menu-wrap {
+  position: relative;
+  width: 100%;
+  background-color: #038bbd;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.sub-menu-wrap .sub-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+.sub-menu-wrap .sub-menu a {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  width: calc(25% - 20px);
+  min-width: 120px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #f3f4f7;
+  padding-bottom: 2px;
+  text-transform: lowercase;
+  font-weight: 700;
+  padding: 10px 0px;
+  border-radius: 0.4em;
+  color: #025472;
+  font-size: 16px;
+}
+
+.sub-menu-wrap .sub-menu a:hover {
+  background-color: white;
+}
+
+.content {
+  font-family: "PT Sans", sans-serif;
+  padding: 25px;
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #025472;
+}
+
+.content h2 {
+  margin: 50px 0px 15px 0px;
+  font-weight: 400px;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: solid 1px #038bbd;
+}
+
+.content h3 {
+  margin: 20px 0px 10px 0px;
+  font-weight: 700px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+
+.content p {
+  line-height: 1.4rem;
+  padding: 5px 25px;
+}
+
+.content pre {
+  margin: 25px;
+  border-top: solid 3px #038bbd;
+}
+
+.content code {
+  padding: 10px;
+}
+
+footer {
+  padding: 25px;
+  border-top: solid 2px #038bbd;
+  width: 100%;
+}
+
+table {
+  width: calc(100% - 25px);
+  position: relative;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table thead {
+  color: #f3f4f7;
+  background-color: #038bbd;
+}
+
+table thead th {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+table tbody tr {
+  border-bottom: solid 2px #c5cad8;
+}
+
+table tbody tr td {
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+table tbody tr td:nth-child(2) {
+  color: rgba(2, 84, 114, 0.7);
+}
+
+.mtgtooltip,
+.mtgtooltip2,
+.mtgtooltip4,
+.mtgtooltip5 {
+  color: goldenrod;
+}
+
+.justaexample {
+  color: red;
+}
+
+p.center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img.mtgtooltip6 {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px;
+  cursor:pointer;
+}
+
+.mynewclass {
+  background-color: #ccc;
+  padding: 5px;
+
+}
