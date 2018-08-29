@@ -8,15 +8,17 @@ A simple vanilla javascript plugin to create images tooltips for magic the gathe
 
 You can check it working live [here](https://giventofly.github.io/MTG-Tooltip-Js/), along with some **examples** of usage and a "nicier" page. Seriously, [check it](https://giventofly.github.io/MTG-Tooltip-Js/) with examples its way better
 
-What advantages do i have over ([Inline mtg](https://gist.github.com/NickolasReynolds/9306194) - my inspiration/basepoint) the previous one?
+I was inspired by ([Inline mtg](https://gist.github.com/NickolasReynolds/9306194) and tried to do a new version with only vanilla javascript and cut some "fat".
+
+Why should you use this? Here are some (good) reasons:
 
 * No libraries needed, just good old plain javascript
-* lazyload tooltip images (performance and banwith is important, no?)
+* lazyload tooltip images
 * Low size (13kb and 7Kb minified).
-* You can select defaults sets for shocklands, painlands, fetchlands, and basics (more can be added, make a pull request or ask me)
-* option to now load/start on mobile (you don't have a mouse to mover over the images/name, do you?)
+* You can select defaults set for shocklands, painlands, fetchlands, and basics (more can be added, make a pull request or ask me)
+* option to now load/start on mobile (you don't have a mouse to mover over the images/name to see the tooltip)
 * option to remove elements created and rescan the page
-* check them all...
+* check them all bellow...
 
   **
 
@@ -32,10 +34,10 @@ What advantages do i have over ([Inline mtg](https://gist.github.com/NickolasRey
 | lazyload |true|bool (true/false)|If you want to lazyload the tooltip images.|
 |fadetime|300|integer (ms)|If you want the tooltip to fade in X ms|
  |opacity|1|float [0,1]|The opacity for the tooltip to have.|
- |log|false|bool (true/false)|verbose to the console what's going on.|
+ |log|false|bool (true/false)|Verbose to the console what's going on.|
 |start|true|bool (true/false)|Start mtgtooltip on the instance creation.|
-|wrap_in|-|String|inicial wrap in case for some special css/js reasons for the tooltip|
-|wrap_out|-|String|final wrap in case for some special css/js reasons for the tooltip|
+|wrap_in|-|String|Inicial wrap for the tooltip (div, section, whatever you like)|
+|wrap_out|-|String|Final wrap for the tooltip (div, section, whatever you like)|
 |specialImage|-|String|link to use costumized image on request (for the data-specialimage attribute)|
 |mobile|true|bool (true/false)|Don't start the mtgtooltip on mobile/tablet devices.|
 |basiclands|ust|String (ust,unh,ugl)|unstable, unhinged and unglued respectively|
@@ -84,6 +86,6 @@ Open a issue/pull request or contact me.
 
 ## Want to make me be able to buy some cards?
 
- [paypal.me](https://www.paypal.me/heyzeto)!! **Thank you.**
+[paypal.me](https://www.paypal.me/heyzeto)!! **Thank you.**
 
 
