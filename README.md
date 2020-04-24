@@ -14,7 +14,7 @@ Why should you use this? Here are some (good) reasons:
 
 * No libraries needed, just good old plain javascript
 * lazyload tooltip images
-* Low size (13kb and 7Kb minified).
+* Low size (13kb and 7Kb minified and 2.3Kb gzipped).
 * You can select defaults set for shocklands, painlands, fetchlands, and basics (more can be added, make a pull request or ask me)
 * option to now load/start on mobile (you don't have a mouse to mover over the images/name to see the tooltip)
 * option to remove elements created and rescan the page
