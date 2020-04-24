@@ -84,8 +84,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 Open a issue/pull request or contact me.
 
-## Want to make me be able to buy some cards?
 
-[paypal.me](https://www.paypal.me/heyzeto)!! **Thank you.**
 
 
