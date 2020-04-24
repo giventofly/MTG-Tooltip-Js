@@ -83,7 +83,7 @@ mtgTooltip.prototype = {
     //costumized wrappers
     const wrapIn = this._settings.wrap_in;
     const wrapOut = this._settings.wrap_out;
-    tooltip.innerHTML = `${wrapIn}<img ${lazyload}='${params}' alt='mtgtooltip image' >${wrapOut}`;
+    tooltip.innerHTML = `${wrapIn}<img ${lazyload}="${params}" alt="mtgtooltip image" >${wrapOut}`;
 
     element.dataset.tooltipid = settingsID;
     tooltip.dataset.tooltipid = settingsID;
