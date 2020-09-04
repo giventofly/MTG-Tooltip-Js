@@ -6,7 +6,7 @@
 
 A simple vanilla javascript plugin to create images tooltips for magic the gathering cards. No dependencies, no extra css, just a .js file and little bit of html.
 
-You can check it working live [here](https://giventofly.github.io/MTG-Tooltip-Js/), along with some **examples** of usage and a "nicier" page. Seriously, [check it](https://giventofly.github.io/MTG-Tooltip-Js/) with examples its way better
+You can check it working live [here](https://giventofly.github.io/MTG-Tooltip-Js/), along with some **examples** of usage and a "nicier" page. You can also see one example in production at [mtgmeta.io](https://mtgmeta.io/decks/11132).
 
 I was inspired by [Inline mtg](https://gist.github.com/NickolasReynolds/9306194) and tried to do a new version with only vanilla javascript and cut some "fat".
 
