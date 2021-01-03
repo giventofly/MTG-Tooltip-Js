@@ -104,6 +104,7 @@ mtgTooltip.prototype = {
   },
   mouseleave: function(element){
     let childid = element.target.dataset.tooltipid;
+    if(!childid){ return false; }
     const myclass = this._settings.myclass;
     const tooltip = document.getElementById(myclass + "_c" + childid);
 
@@ -124,6 +125,7 @@ mtgTooltip.prototype = {
   },
   mouseenter: function(element){
     let childid = element.target.dataset.tooltipid;
+    if(!childid){ return false; }
     const myclass = this._settings.myclass;
     // let linkid = $(this).data("linkid");
     const tooltip = document.getElementById(myclass + "_c" + childid);
